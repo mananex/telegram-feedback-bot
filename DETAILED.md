@@ -26,4 +26,8 @@ To unban a user you need to write **/unban** and the *user ID*, like `/unban 31`
 **Note:** NOT the telegram ID, but the *user ID* that is stored in the database. **The bot writes it when the moderator blocks someone.**
 
 When a user sends a question to the moderators, all moderators receive a message with the question and with two inline-buttons:
-"*Answer*" and "*❌ Ban user*". When you click on "*Answer*", the bot begins to wait for an answer message, which can be canceled by clicking on the "*Cancel*" button. **A question cannot be answered if another moderator has already answered it**. After answering a message in the chat, the message with the question will be deleted.
+"*Answer*" and "*❌ Ban user*". 
+
+When you click on "*Answer*" button, the bot begins to wait for an answer message, which can be canceled by clicking on the "*Cancel*" button. **A question cannot be answered if another moderator has already answered it**. After answering a message in the chat, the message with the question will be deleted.
+
+When you click on the "*❌ Ban user*" button, the user is blocked, and the moderator is informed of the user ID (the ID that is in the bot database)
