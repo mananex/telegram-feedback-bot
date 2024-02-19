@@ -6,17 +6,24 @@ Before installing libraries, first create a telegram bot using [Bot Father](http
 I prefer using virtual environments, so let's create one and activate it!
 
 For Windows:
+```
 python -m venv anonymousSupportBotVenv
 cd anonymousSupportBotVenv
 scripts\activate
+```
 For Linux:
+```
 python3 -m venv anonymousSupportBotVenv
 cd anonymousSupportBotVenv
 source bin/activate
-
+```
 Now, let's install the necessary dependencies.
 
 For Windows:
+```
 pip install -r requirements.txt
+```
 For Linux
+```
 pip3 install -r requirements.txt
+```
