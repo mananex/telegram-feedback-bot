@@ -6,7 +6,7 @@ logging.basicConfig(filename = f'logs/log_{randint(0, 99999)}.log', level = logg
 
 
 
-# ------------- dependences ------------- #
+# ------------- dependencies ------------- #
 from configuration import API_TOKEN, LEAD_MODERATOR_ID
 from additional import *
 from aiogram import Bot, Dispatcher, Router, types
