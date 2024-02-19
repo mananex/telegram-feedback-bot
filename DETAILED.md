@@ -1,5 +1,5 @@
 # How the bot works?
-**For convenience, I will divide the explanation into two parts - the user-side and the moderator-side.**
+**For convenience, I will divide the explanation into three parts - the user-side, the moderator-side and the lead-side.**
 ## User-side.
 * ┏ Commands
 * ┣  /start - *get start message.*
@@ -15,3 +15,12 @@ To see the list of questions that you have asked the moderators, you can send th
 When you click on the inline-button, the bot will send a response - showing your message and the answer to it.
 
 The user also has the opportunity to delete asked questions by clicking on the inline-button "*Clear all*"
+## Moderator-side.
+* ┏ Commands
+* ┣  /show_moderators - *get a list of moderators. Returns a list of telegram IDs of moderators.*
+* ┣  /unban - *unban a user.*
+
+### /unban
+To unban a user you need to write **/unban** and the *user ID*, like `/unban 31`.
+
+**Note:** NOT the telegram ID, but the *user ID* that is stored in the database. **The bot writes it when the moderator blocks someone.**
