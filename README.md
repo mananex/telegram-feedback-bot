@@ -40,3 +40,18 @@ LEAD_MODERATOR_ID = None
 `DATABASE_FILENAME` is the name of the SQLite database file. You can not change it and leave the default value.
 
 `LEAD_MODERATOR_ID` is the telegram ID of the main moderator, who can add other moderators or remove them.
+### Running the script.
+Now we can finally run the script!
+
+For Windows: `python app.py`
+For Linux: `python3 app.py`
+
+You will see these messages:
+```
+Creating tables...
+Starting bot... Check logs.
+```
+and this means that the script works!
+### Note.
+**You can read detailed information about how the bot works in the file DETAILED.md**
+
