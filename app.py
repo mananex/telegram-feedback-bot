@@ -93,7 +93,7 @@ async def delete_moderator_command_handler(message: types.Message) -> None:
                 moderator = await fetchone(select(Moderator).where(Moderator.telegram_user_id == user_telegram_id), session)
                 if not moderator: await message.answer(text = messages.moderator_doesnt_exist_message)
                 else:
-                    await execute_stmt(delete(Moderator).where(Moderator.telegram_user_id == user_telegram_id))
+                    await execute_stmt(delete(Moderator).where(Moderator.telegram_user_id == user_telegram_id), session)
                     await message.answer(text = messages.moderator_deleted_message)
 # ------------- ---------------- ------------- #
 
