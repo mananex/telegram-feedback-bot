@@ -1,7 +1,7 @@
 # This is a simple telegram bot created for user feedback from moderators
 ### How to set up?
 First, you must have a Python interpreter installed. I use Python 3.12.1, but you can use earlier versions, there should be no problems.
-Before installing libraries, first create a telegram bot using [Bot Father](https://t.me/BotFather).
+Before installing libraries, first create a telegram bot using **[Bot Father](https://t.me/BotFather)**.
 ### Installing libraries.
 I prefer using virtual environments, so let's create one and activate it!
 
@@ -39,7 +39,7 @@ LEAD_MODERATOR_ID = None
 
 `DATABASE_FILENAME` is the name of the SQLite database file. You can not change it and leave the default value.
 
-`LEAD_MODERATOR_ID` is the telegram ID of the main moderator, who can add other moderators or remove them. You can get your user ID using the [Get My ID](https://t.me/getmyid_bot) bot.
+`LEAD_MODERATOR_ID` is the telegram ID of the main moderator, who can add other moderators or remove them. You can get your user ID using the **[Get My ID](https://t.me/getmyid_bot)** bot.
 ### Running the script.
 Now we can finally run the script!
 
