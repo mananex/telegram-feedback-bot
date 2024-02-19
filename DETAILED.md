@@ -37,3 +37,7 @@ When you click on the "*❌ Ban user*" button, the user is blocked, and the mode
 * ┏ Commands
 * ┣  /add_moderator - *add new moderator.*
 * ┣  /delete_moderator - *delete moderator from the database.*
+
+**Examples:** `/add_moderator 1560748091`, `/delete_moderator 1170108702`.
+
+## Thank You!
