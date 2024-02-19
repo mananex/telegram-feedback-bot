@@ -39,7 +39,7 @@ LEAD_MODERATOR_ID = None
 
 `DATABASE_FILENAME` is the name of the SQLite database file. You can not change it and leave the default value.
 
-`LEAD_MODERATOR_ID` is the telegram ID of the main moderator, who can add other moderators or remove them.
+`LEAD_MODERATOR_ID` is the telegram ID of the main moderator, who can add other moderators or remove them. You can get your user ID using the [Get My ID]((https://t.me/getmyid_bot)) bot.
 ### Running the script.
 Now we can finally run the script!
 
